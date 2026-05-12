@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hermes CornReform</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #75161C 0%, #4a0e11 50%, #2a0809 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+    
+    .container {
+      text-align: center;
+      padding: 3rem;
+      max-width: 600px;
+    }
+    
+    .logo {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 2rem;
+      background: #C9A84C;
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    }
+    
+    .logo svg {
+      width: 80px;
+      height: 80px;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    
+    .subtitle {
+      font-size: 1.1rem;
+      color: #C9A84C;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+    
+    .description {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 2.5rem;
+    }
+    
+    .features {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+    }
+    
+    .feature {
+      background: rgba(255,255,255,0.1);
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .feature-icon {
+      font-size: 1.2rem;
+      margin-bottom: 0.3rem;
+    }
+    
+    .contact {
+      color: rgba(255,255,255,0.6);
+      font-size: 0.85rem;
+    }
+    
+    .contact a {
+      color: #C9A84C;
+      text-decoration: none;
+    }
+    
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    
+    .badge {
+      display: inline-block;
+      background: #C9A84C;
+      color: #75161C;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    
+    @media (max-width: 480px) {
+      .container { padding: 2rem 1.5rem; }
+      h1 { font-size: 2rem; }
+      .features { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="badge">Internal Use</span>
+    
+    <div class="logo">
+      <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Hermes Wing Symbol -->
+        <path d="M40 8C25 8 15 20 15 35C15 50 25 62 40 72C55 62 65 50 65 35C65 20 55 8 40 8Z" fill="#75161C"/>
+        <path d="M40 15C28 15 20 25 20 37C20 49 28 59 40 67C52 59 60 49 60 37C60 25 52 15 40 15Z" fill="#C9A84C"/>
+        <path d="M40 22L48 35H32L40 22Z" fill="#75161C"/>
+        <circle cx="40" cy="42" r="8" fill="#75161C"/>
+        <circle cx="40" cy="42" r="4" fill="#C9A84C"/>
+      </svg>
+    </div>
+    
+    <h1>Hermes CornReform</h1>
+    <p class="subtitle">AI Agent Workspace Integration</p>
+    
+    <p class="description">
+      Secure Google Workspace integration for the Hermes AI Agent system. 
+      Enables automated document management, spreadsheet processing, and collaboration tools.
+    </p>
+    
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">📄</div>
+        <div>Google Docs</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📊</div>
+        <div>Google Sheets</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📅</div>
+        <div>Calendar</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">✉️</div>
+        <div>Gmail</div>
+      </div>
+    </div>
+    
+    <p class="contact">
+      Contact: <a href="mailto:cornreform@gmail.com">cornreform@gmail.com</a>
+    </p>
+  </div>
+</body>
+</html>
